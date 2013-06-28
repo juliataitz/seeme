@@ -1,6 +1,5 @@
-gem "bundler"
+source 'https://rubygems.org'
 gem 'sinatra'
-gem 'rubygems' 
 gem 'youtube_it'
 gem 'pony'
 gem 'nokogiri'

@@ -1,11 +1,7 @@
 
 #!/usr/bin/env ruby
 
-require 'sinatra'
-require 'rubygems' 
-require 'youtube_it'
-require 'pony'
-require 'nokogiri'
+
 
 class SeeMe_Weekly
 

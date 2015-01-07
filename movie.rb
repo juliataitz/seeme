@@ -37,7 +37,7 @@ class SeeMe_Weekly
 		Pony.mail({
   			:to => email,
   			:subject => "SeeMe Weekly",
-  			:body => "Check out the number one movie at the box office this week! XOXO, Julia and Lexi #{url}", 
+  			:body => "Check out the number one movie at the box office this week! XOXO, Julia #{url}", 
   			:via => :smtp,
   			:via_options => {
     		:address              => 'smtp.gmail.com',

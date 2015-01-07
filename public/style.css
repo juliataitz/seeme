@@ -1,0 +1,16 @@
+h1 {
+	color: #006BB2;
+	font-family: Helvetica, Sans-Serif;
+    text-align:center;
+}
+
+#input_info {
+	width: 400px;
+	display: block;
+	margin-left: 3px;
+	margin-top: 50px;
+	color:#006BB2;
+	font-family: Helvetica, Sans-Serif;
+	
+}
+

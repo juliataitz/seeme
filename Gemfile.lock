@@ -2,6 +2,7 @@ GEM
   remote: https://rubygems.org/
   specs:
     builder (3.2.2)
+    coderay (1.1.0)
     excon (0.22.1)
     faraday (0.8.7)
       multipart-post (~> 1.1)
@@ -12,6 +13,7 @@ GEM
     mail (2.5.4)
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
+    method_source (0.8.2)
     mime-types (1.23)
     multi_json (1.7.7)
     multi_xml (0.5.4)
@@ -28,14 +30,21 @@ GEM
     polyglot (0.3.3)
     pony (1.5)
       mail (> 2.0)
+    pry (0.10.1)
+      coderay (~> 1.1.0)
+      method_source (~> 0.8.1)
+      slop (~> 3.4)
     rack (1.5.2)
     rack-protection (1.5.0)
       rack
+    shotgun (0.9)
+      rack (>= 1.0)
     simple_oauth (0.2.0)
     sinatra (1.4.3)
       rack (~> 1.4)
       rack-protection (~> 1.4)
       tilt (~> 1.3, >= 1.3.4)
+    slop (3.6.0)
     tilt (1.4.1)
     treetop (1.4.14)
       polyglot
@@ -56,5 +65,7 @@ PLATFORMS
 DEPENDENCIES
   nokogiri
   pony
+  pry
+  shotgun
   sinatra
   youtube_it
